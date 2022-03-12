@@ -1,0 +1,28 @@
+/* Memberi warna dengan cara menuliskan nama warna secara langsung */
+.warna-orange {
+    color: orange;
+}
+/* Memberi warna border sebsar 2px dengan warna tomat */
+.warna-border {
+    border: solid 2px tomato;
+}
+/* Nilai warna merah, hijau dan biru */
+.warna-rgb {
+    color: rgb(255, 99, 71);
+}
+/* Warna berdasarkan nilai hexa decimal */
+.warna-hexa {
+    color: rgb(11, 9, 136);
+}
+/* Warna berdasarkan nilai hue saturation lightness */
+.warna-hsl {
+    color: hsl(20, 100%, 30%);
+}
+/* Warna berdasarkan nilai rbg dan alpha atau transparansi */
+.warna-rgba {
+    background-color: rgba(255, 20, 100, 0.5);
+}
+.warna-hsla {
+    background-color: hsla(90, 100%, 65%, 0.3);
+}
+
