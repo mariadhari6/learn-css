@@ -1,0 +1,15 @@
+div.element1 {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+div.element2{
+    height: 100px;
+    width: 500px;
+    background-color: blueviolet;
+}
+div.max-width{
+    max-width: 500px; /*Elemen ini memiliki maksimal lebar 500px dan akan wrap kebawah*/
+    height: 100px;
+    background-color: aqua;
+}
