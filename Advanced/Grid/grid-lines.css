@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+.grid-item:nth-of-type(1), .grid-item:nth-of-type(8) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
