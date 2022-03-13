@@ -1,0 +1,72 @@
+p.text-color {
+    color: blue;
+}
+
+p.text-alignment {
+    text-align: right;
+    /* text-align: left;     */
+    /* text-align: center; */
+}
+
+p.text-align-justify {
+    border: solid 1px black;
+    padding: 10px;
+    width: 200px;
+    text-align: justify;
+}
+
+p.text-direction {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+img.baseline {
+    vertical-align: baseline;
+}
+
+img.text-top {
+    vertical-align: text-top;
+}
+
+img.text-bottom {
+    vertical-align: text-bottom;
+}
+
+img.sub {
+    vertical-align: sub;
+}
+
+img.super {
+    vertical-align: super;
+}
+
+p.text-decoration {
+    text-decoration-line: overline underline;
+    text-decoration-style: dashed;
+
+}
+p.text-uppercase{
+    text-transform: uppercase;
+}
+p.text-lowercase{
+    text-transform: lowercase;
+}
+p.text-capitalize{
+    text-transform: capitalize;
+}
+p.spacing-indent{
+    text-indent: 50px; /*Spasi awal dari text*/
+    text-align: justify;
+}
+p.letter-spacing{
+    letter-spacing: 10px; /*Jarak setiap character 10px*/
+}
+p.custom-line-height{
+    line-height: 1.8;
+}
+p.word-spacing{
+    word-spacing: 10pxe;
+}
+h2.text-shadow-effect{
+    text-shadow: 2px 2px 5px red; /*2px horizontal 2px vertical 5px blur effect*/
+}
