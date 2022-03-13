@@ -1,0 +1,25 @@
+div.box-model {
+    background-color: lightgray;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border: solid 15px green;
+}
+
+div.calc-width {
+    width: 320px;
+    /*lebar awal elemen*/
+    padding: 10px;
+    /*Lebar ditambahkan dengan padding kanan dan kiri menjadi 340px*/
+    border: solid 5px gray;
+    /*Lebar ditambahken dengan border kanan dan kiri menjadi 350px*/
+   
+    /*
+    320 piksel (lebar)
+    + 20px (padding kiri + kanan)
+    + 10px (batas kiri + kanan)
+    + 0px (margin kiri + kanan)
+    = 350 piksel
+*/
+}
+
