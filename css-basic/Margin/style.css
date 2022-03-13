@@ -33,3 +33,7 @@ p.margin-2-values {
     /*(atas, bawah) dan (kanan, kiri)*/
     background-color: aqua;
 }
+p.margin-auto{
+    margin: auto;
+    
+}

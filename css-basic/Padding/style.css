@@ -1,0 +1,55 @@
+p.padding-top {
+    padding-top: 50px;
+    /*Jarak atas dalam sebesar 50px*/
+    background-color: red;
+}
+
+p.padding-bottom {
+    padding-bottom: 50px;
+    /*Jarak bawah dalam sebesar 50px*/
+    background-color: blue;
+}
+
+p.padding-left {
+    padding-left: 50px;
+    /*Jarak kiri dalam sebesar 50px*/
+    background-color: beige;
+}
+
+p.padding-right {
+    padding-right: 50px;
+    /*Jarak kanan dalam sebesar 50px*/
+    background-color: rgb(28, 156, 16);
+    text-align: right;
+    /*Posisi di kanan agar padding terlihat*/
+}
+
+p.padding-short-hand-4 {
+    padding: 25px 50px 75px 100px;
+    /*atas, kanan, bawah, kiri*/
+    background-color: brown;
+}
+
+p.padding-short-hand-3 {
+    padding: 25px 50px 75px;
+    /*atas, kiri & kanan, bawah*/
+    background-color: cadetblue;
+}
+
+p.padding-short-hand-2 {
+    padding: 25px 50px;
+    /*atas & bawah, kiri & kanan*/
+    background-color: blue;
+}
+
+p.padding-short-hand-1 {
+    padding: 25px;
+    /*atas, kanan, bawah, kiri 25px*/
+    background-color: chartreuse;
+}
+
+div.padding-dan-lebar {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+}
