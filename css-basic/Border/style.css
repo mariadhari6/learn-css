@@ -1,0 +1,40 @@
+p.one {
+    border-style: solid;
+    border-width: 5px 20px;
+    /*atas bawah 5px, kanan kiri 20px*/
+}
+
+p.two {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /*atas kanan bawah kiri*/
+}
+
+p.warna-border {
+    border-style: solid;
+    border-color: brown;
+    /*Bisa menggunakan warna berdasarkan nilai rgb, hexa decimal, ataupun hsl*/
+}
+
+p.border-sides {
+    border-top: dotted;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: solid;
+}
+
+p.border-side-shorthand {
+    /*border-style: dotted solid dotted solid;*/
+    /*atas, kanana, bawah, kiri*/
+    border-style: dotted solid dotted;
+}
+
+p.border-shorthand {
+    border: solid 2px blueviolet;
+    /*style, width & color*/
+}
+p.border-radius {
+    border: solid 2px chocolate;
+    border-radius: 5px;
+    
+}
