@@ -1,0 +1,35 @@
+/*margin digunakan untuk mengaplikasikan jarak tepi pada sebuah elemen bagian luar (tepi garis luar)*/
+
+p.margin-top {
+    margin-top: 5px;
+}
+
+p.margin-left {
+    margin-left: 10px;
+    background: yellow;
+}
+
+p.margin-right {
+    margin-right: 20px;
+    /*Jarak luar kanan sebesar 20px*/
+    background-color: blue;
+}
+
+p.margin-bottom {
+    margin-bottom: 50px;
+    /*Spasi ke bawah sebesar 50px*/
+    background-color: azure;
+}
+
+p.short-hand-margin {
+    background-color: blueviolet;
+    color: wheat;
+    margin: 0 50px 50px 50px;
+    /*atas, kanan, bawah & kiri*/
+}
+
+p.margin-2-values {
+    margin: 50px 20px;
+    /*(atas, bawah) dan (kanan, kiri)*/
+    background-color: aqua;
+}
