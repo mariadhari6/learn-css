@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    background-color: #f1f1f1;
+}
+.flex-container > div {
+    background-color: dodgerblue;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    font-size: 30px;
+}
