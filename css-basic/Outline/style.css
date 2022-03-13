@@ -1,0 +1,50 @@
+p {
+    outline-color: red;
+}
+
+p.outline-dotted {
+    border: solid 5px blue;
+    outline-style: dotted;
+}
+
+p.outline-dashed {
+    outline-style: dashed;
+}
+
+p.outline-solid {
+    outline-style: solid;
+}
+
+p.outline-double {
+    outline-style: double;
+}
+
+p.outline-groove {
+    outline-style: groove;
+}
+
+p.outline-ridge {
+    outline-style: ridge;
+}
+
+p.outline-inset {
+    outline-style: inset;
+}
+
+p.outline-outset {
+    outline-style: outset;
+}
+
+p.lebar-outline {
+    outline-style: solid;
+    outline-width: 5px;
+}
+div.outline-short-hand{
+    outline: solid 5px yellow;
+}
+div.outline-offset{
+    margin: 30px;
+    border: solid 1px black;
+    outline: solid 1px black;
+    outline-offset: 15px;
+}
